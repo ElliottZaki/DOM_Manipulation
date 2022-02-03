@@ -1,12 +1,12 @@
-// const body = document.body
-// const div = document.createElement('div')
+const body = document.body
+const div = document.createElement('div')
 
-// div.innerText = 'Hello world!'
-// div.textContent = 'Hello world2!'
+// inner.html allows us to use the html tags to affect our page as seen below. 
 
-// body.appendChild(div)
+div.innerHTML = '<strong>Hello World</strong>'
+body.appendChild(div)
 
-const div = document.querySelector('div')
+// const div = document.querySelector('div')
 
-console.log(div.textContent);
-console.log(div.innerText);
+// console.log(div.textContent);
+// console.log(div.innerText);
